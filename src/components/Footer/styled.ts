@@ -8,7 +8,7 @@ export const Container = styled.footer`
   height: 5rem;
   background: rgba(255, 255, 255, 0.1);
   border-top: 0.0625rem solid rgba(255, 255, 255, 0.3);
-  position: absolute;
+  position: fixed;
   bottom: 0;
 `
 
