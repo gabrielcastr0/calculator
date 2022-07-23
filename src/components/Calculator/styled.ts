@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  display: flex;
+  flex-direction: column;
 `;
 
 export const LedArea = styled.div`
-  grid-column: 1 / -1;
+  height: 5rem;
   background: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;

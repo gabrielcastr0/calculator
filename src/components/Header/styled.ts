@@ -8,7 +8,6 @@ export const Container = styled.header`
   height: 6.25rem;
   background: rgba(255, 255, 255, 0.1);
   border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
-  position: absolute;
   top: 0;
 `;
 
